@@ -1,7 +1,5 @@
 	#include <xc.inc>
-
-psect	code, abs
-	
+psect	code, abs	
 main:
 	org	0x0
 	goto	start
@@ -30,7 +28,7 @@ test:
 	
 
 delay:
-        decfsz  0x90
+        decfsz  0x90	    
 	bra     delay
 	return
         end	main
