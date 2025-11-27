@@ -8,7 +8,7 @@ main:
 start:
 	movlw 	0x0
 	movwf	TRISJ, A
-	movlw   0x0C
+	movlw   0x3B
 	movwf   0x90; Port C all outputs
 	movwf   0x91   ;original
 	movlw 	0x0
